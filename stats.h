@@ -9,32 +9,46 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file Functions Header 
+ * @brief This file contains all the function declaration for functions to be used for implementation of the program.
  *
- * <Add Extended Description Here>
+ * These function declarations are made to perform various tasks like calcualting various statistics like mean, median, maximum, minimun along with ascending arrangement of elements of the array.
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author Tarun Agrawal
+ * @date 28.06.2020
  *
  */
 #ifndef __STATS_H__
 #define __STATS_H__
+ 
+void print_statistics(int *me, int *med, int *max, int*min);
+//@brief prints the calculated parameters
+//this function takes in the values of the calculated parameters as pointers and prints them for the output.
+//@return no value
 
-/* Add Your Declarations and Function Comments here */ 
+void print_array (int);
+/*@brief prints the sorted array
+ * @return no value*/
 
-/**
- * @brief <Add Brief Description of Function Here>
- *
- * <Add Extended Description Here>
- *
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- *
- * @return <Add Return Informaiton here>
- */
+int find_median (int);
+//finds the medin of the elements of the array passed as input
+//@return median value
 
+int find_mean (int);
+//finds the mean of the elements of the input array
+//@return mean value
+
+int find_max (int);
+//finds the maximum value elemengt in the input array
+//@return Max value
+
+int find_min (int);
+//finds the minimum value element in the input array
+//@return Min Value
+
+void sort_array (int);
+//@brief sorts the input array on ascending order
+//This function takes the array as an input pointer, manipulates the position of the elements
+//@return no value
 
 #endif /* __STATS_H__ */

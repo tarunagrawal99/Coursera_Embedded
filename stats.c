@@ -9,13 +9,13 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file Statistis of an Array 
+ * @brief Calculate Statistical parameters for the elements of array
  *
- * <Add Extended Description Here>
+ * We calculate the mean, meadian, max, min of the elements of the array. This file also sorts the array from the min to the max element ascending order.
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author Tarun Agrawal
+ * @date 27.06.2020
  *
  */
 
@@ -27,6 +27,27 @@
 /* Size of the Data Set */
 #define SIZE (40)
 
+void print_statistics(int *me, int *med, int *max, int *min){
+}
+
+void print_array(int data ){
+}
+
+int find_mean (int data ){
+}
+
+int find_median (int data ){
+}
+
+int find_max (int data ){
+}
+
+int find_min (int data){
+}
+
+void sort_array(int data){
+}
+
 void main() {
 
   unsigned char test[SIZE] = { 34, 201, 190, 154,   8, 194,   2,   6,
@@ -37,7 +58,6 @@ void main() {
 
   /* Other Variable Declarations Go Here */
   /* Statistics and Printing Functions Go Here */
-
 }
 
-/* Add other Implementation File Code Here */
+
