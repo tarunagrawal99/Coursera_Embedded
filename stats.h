@@ -26,27 +26,27 @@ void print_statistics(int *me, int *med, int *max, int*min);
 //this function takes in the values of the calculated parameters as pointers and prints them for the output.
 //@return no value
 
-void print_array (int);
+void print_array (int *,int);
 /*@brief prints the sorted array
  * @return no value*/
 
-int find_median (int);
+int find_median (int *,int);
 //finds the medin of the elements of the array passed as input
 //@return median value
 
-int find_mean (int);
+int find_mean (int *,int);
 //finds the mean of the elements of the input array
 //@return mean value
 
-int find_max (int);
+int find_max (int *,int);
 //finds the maximum value elemengt in the input array
 //@return Max value
 
-int find_min (int);
+int find_min (int *,int);
 //finds the minimum value element in the input array
 //@return Min Value
 
-void sort_array (int);
+void sort_array (int *,int);
 //@brief sorts the input array on ascending order
 //This function takes the array as an input pointer, manipulates the position of the elements
 //@return no value
